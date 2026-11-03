@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Kit do Professor de Português">
+  <rect width="64" height="64" rx="12" fill="#6B4A32"/>
+  <rect x="6" y="6" width="52" height="42" rx="3" fill="#1B2E23"/>
+  <!-- chalk strokes standing in for lines of writing -->
+  <g stroke="#F6F1E4" stroke-width="3.4" stroke-linecap="round" opacity=".92">
+    <path d="M14 19h24"/>
+    <path d="M14 27h32"/>
+    <path d="M14 35h18"/>
+  </g>
+  <!-- chalk tray -->
+  <rect x="6" y="48" width="52" height="6" rx="2" fill="#7A5738"/>
+  <rect x="16" y="49.5" width="12" height="3" rx="1.5" fill="#F6F1E4"/>
+  <!-- correction mark in pen red -->
+  <path d="M40 33l5 6 9-13" fill="none" stroke="#C1432E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
