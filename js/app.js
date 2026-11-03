@@ -6,7 +6,7 @@ var CONFIG = {
   checkoutCompleto: 'https://pay.wiapy.com/31k2V64jZ0mj',
 
   // Link do checkout do plano Essencial (R$ 12)
-  checkoutEssencial: 'https://pay.wiapy.com/98gdahZOulHP',
+  checkoutEssencial: 'https://checkout.wiven.com.br/checkout/cmw0qs0ms0bcd01pv1qixbpio?offer=G975JBL',
 
   // Link do checkout do upgrade promocional (R$ 17,90)
   checkoutUpgrade: 'https://pay.wiapy.com/Joy8p6NS_HC',
