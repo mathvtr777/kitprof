@@ -9,7 +9,7 @@ var CONFIG = {
   checkoutEssencial: 'https://checkout.wiven.com.br/checkout/cmw0qs0ms0bcd01pv1qixbpio?offer=G975JBL',
 
   // Link do checkout do upgrade promocional (R$ 17,90)
-  checkoutUpgrade: 'https://pay.wiapy.com/Joy8p6NS_HC',
+  checkoutUpgrade: 'https://checkout.wiven.com.br/checkout/cmw0r67iq0d5m01pvia45qm04?offer=USCVF5G',
 
   // Preço mostrado no pop-up de upgrade.
   precoUpgrade: '17,90'
